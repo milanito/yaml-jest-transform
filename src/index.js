@@ -4,7 +4,9 @@ const crypto = require('crypto')
 const process = src => {
   const json = yaml.load(src, { json: true })
 
-  return `module.exports = ${JSON.stringify(json, null, 2)};`
+  return {
+    code: `module.exports = ${JSON.stringify(json, null, 2)};`
+  }
 }
 
 const getCacheKey = (data, path, config) =>

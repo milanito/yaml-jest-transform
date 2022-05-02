@@ -1,6 +1,6 @@
 {
   "name": "yaml-jest-transform",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "This is a transform for yaml files in jest",
   "main": "src/index.js",
   "repository": "https://github.com/milanito/yaml-jest-transform",
