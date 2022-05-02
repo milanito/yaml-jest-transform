@@ -2,6 +2,8 @@
 
 This is a transform for yaml files in jest
 
+> **Warning** : Version 2 is for jest version 8, for version 7 use version 1 of this package
+
 ## Install
 
 Use the one of the following commands :
